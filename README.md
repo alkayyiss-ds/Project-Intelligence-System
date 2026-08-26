@@ -1,10 +1,10 @@
-﻿# 🧠 Project Intelligence System
+# Project Intelligence System
 
 Sistem kecerdasan buatan berbasis Deep Learning dengan deployment web menggunakan FastAPI.
 
-## 📁 Struktur Proyek
+## Struktur Proyek
 
-`
+```
 Project-Intelligence-System/
 ├── data/               # Dataset (raw, processed, interim, external)
 ├── notebooks/          # Jupyter Notebooks (EDA, preprocessing, modeling, evaluasi)
@@ -18,34 +18,34 @@ Project-Intelligence-System/
 ├── docs/               # Dokumentasi proyek
 ├── logs/               # Log files
 └── reports/            # Laporan & visualisasi hasil
-`
+```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone Repository
-`ash
+```bash
 git clone https://github.com/alkayyiss-ds/Project-Intelligence-System.git
 cd Project-Intelligence-System
-`
+```
 
 ### 2. Setup Environment
-`ash
+```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 
 pip install -r requirements.txt
-`
+```
 
 ### 3. Jalankan API
-`ash
+```bash
 uvicorn api.main:app --reload
-`
+```
 
 ### 4. Buka Web
 Akses http://localhost:8000 di browser.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Deep Learning**: PyTorch / TensorFlow
 - **Backend**: FastAPI / Flask
@@ -53,20 +53,16 @@ Akses http://localhost:8000 di browser.
 - **Containerization**: Docker
 - **Web Server**: Nginx
 
-## 📊 Workflow
+## Workflow
 
 1. **Data Collection** → data/raw/
-2. **EDA** → 
-otebooks/01_exploratory/
-3. **Preprocessing** → 
-otebooks/02_preprocessing/ + src/data/
-4. **Modeling** → 
-otebooks/03_modeling/ + src/models/
-5. **Evaluation** → 
-otebooks/04_evaluation/
-6. **Deployment** → pi/ + rontend/ + deploy/
+2. **EDA** → notebooks/01_exploratory/
+3. **Preprocessing** → notebooks/02_preprocessing/ + src/data/
+4. **Modeling** → notebooks/03_modeling/ + src/models/
+5. **Evaluation** → notebooks/04_evaluation/
+6. **Deployment** → api/ + frontend/ + deploy/
 
-## 👤 Author
+## Author
 
 **alkayyiss-ds**  
 GitHub: [alkayyiss-ds](https://github.com/alkayyiss-ds)
