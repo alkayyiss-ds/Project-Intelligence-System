@@ -61,8 +61,3 @@ Akses http://localhost:8000 di browser.
 4. **Modeling** → notebooks/03_modeling/ + src/models/
 5. **Evaluation** → notebooks/04_evaluation/
 6. **Deployment** → api/ + frontend/ + deploy/
-
-## Author
-
-**alkayyiss-ds**  
-GitHub: [alkayyiss-ds](https://github.com/alkayyiss-ds)
