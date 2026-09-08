@@ -1,0 +1,68 @@
+{
+  "dataset": "Exqrch/IndoDiscourse",
+  "source": "https://huggingface.co/datasets/Exqrch/IndoDiscourse",
+  "license": "Apache-2.0",
+  "task": "multi-label text classification",
+  "language": "Indonesian",
+  "label_columns": [
+    "toxicity",
+    "polarized",
+    "profanity_obscenity",
+    "threat_incitement_to_violence",
+    "insults",
+    "identity_attack",
+    "sexually_explicit"
+  ],
+  "description": "Multi-labeled dataset for Indonesian discourse analysis. Covers toxicity, polarization, profanity, threats, insults, identity attacks, and sexually explicit content. Each text is annotated by multiple annotators with demographic info.",
+  "configs": {
+    "main": {
+      "rows": 28448,
+      "columns": [
+        "text_id",
+        "annotators_id",
+        "text",
+        "initial_paragraph",
+        "topic",
+        "is_noise_or_spam_text",
+        "related_to_election_2024",
+        "toxicity",
+        "polarized",
+        "profanity_obscenity",
+        "threat_incitement_to_violence",
+        "insults",
+        "identity_attack",
+        "sexually_explicit"
+      ],
+      "files": {
+        "parquet": [
+          "C:\\Users\\user\\.gemini\\antigravity-ide\\scratch\\Project-Intelligence-System\\data\\raw\\indodiscourse_main_0000.parquet"
+        ],
+        "csv": "C:\\Users\\user\\.gemini\\antigravity-ide\\scratch\\Project-Intelligence-System\\data\\raw\\indodiscourse_main.csv",
+        "json": "C:\\Users\\user\\.gemini\\antigravity-ide\\scratch\\Project-Intelligence-System\\data\\raw\\indodiscourse_main.json"
+      }
+    },
+    "annotator": {
+      "rows": 29,
+      "columns": [
+        "annotator_id",
+        "ethnicity",
+        "religion",
+        "disability",
+        "lgbt",
+        "gender",
+        "age",
+        "domisili",
+        "pendidikan terakhir",
+        "status pekerjaan",
+        "president vote leaning"
+      ],
+      "files": {
+        "parquet": [
+          "C:\\Users\\user\\.gemini\\antigravity-ide\\scratch\\Project-Intelligence-System\\data\\raw\\indodiscourse_annotator_0000.parquet"
+        ],
+        "csv": "C:\\Users\\user\\.gemini\\antigravity-ide\\scratch\\Project-Intelligence-System\\data\\raw\\indodiscourse_annotator.csv",
+        "json": "C:\\Users\\user\\.gemini\\antigravity-ide\\scratch\\Project-Intelligence-System\\data\\raw\\indodiscourse_annotator.json"
+      }
+    }
+  }
+}
