@@ -2,8 +2,8 @@ annotator_id,ethnicity,religion,disability,lgbt,gender,age,domisili,pendidikan_t
 1,Tionghoa,Kristen,no,no,F,50,Jakarta,Diploma,Bekerja,2
 2,Madura,Islam,no,no,F,22,Madura,Sekolah Menengah Atas (SMA),Pelajar/Mahasiswa,3
 3,Batak,Kepercayaan Lokal,no,no,F,29,Medan,Sarjana (S1),Bekerja,3
-4,Bali,Hindu,no,no,M,23,Bandung,Sekolah Menengah Atas (SMA),Pelajar/Mahasiswa,-
-5,Jawa,Syiah,no,no,M ,46,Bandung,Diploma,Bekerja,Golput
+4,Bali,Hindu,no,no,M,23,Bandung,Sekolah Menengah Atas (SMA),Pelajar/Mahasiswa,0
+5,Jawa,Syiah,no,no,M,46,Bandung,Diploma,Bekerja,0
 6,Minang,Ahmadiyah,no,no,F,22,Jakarta,Sarjana (S1),Bekerja,3
 7,Minang,Islam,yes,no,F,27,Padang,Sarjana (S1),Bekerja,1
 8,Arab,Islam,no,no,M,23,Jakarta,Sekolah Menengah Atas (SMA),Pelajar/Mahasiswa,1
@@ -13,7 +13,7 @@ annotator_id,ethnicity,religion,disability,lgbt,gender,age,domisili,pendidikan_t
 12,Melayu,Islam,no,no,F,34,Riau,Sarjana (S1),Ibu Rumah Tangga,1
 13,Dayak,Katolik,no,no,M,20,Pontianak,Sarjana (S1),Pelajar/Mahasiswa,2
 15,Tionghoa,Katolik,yes,no,F,21,Jakarta,Sekolah Menengah Atas (SMA),Pelajar/Mahasiswa,3
-16,Bugis,Islam,no,no,F,19,Makassar,Sekolah Menengah Atas (SMA),Pelajar/Mahasiswa,-
+16,Bugis,Islam,no,no,F,19,Makassar,Sekolah Menengah Atas (SMA),Pelajar/Mahasiswa,0
 18,Bali,Hindu,yes,no,M,34,Jakarta,Magister (S2),Tidak Bekerja,2
 19,Batak,Kristen,no,no,F,39,Depok,Magister (S2),Bekerja,2
 20,Sunda,Islam,no,no,M,43,Jakarta,Magister (S2),Bekerja,2
@@ -23,8 +23,8 @@ annotator_id,ethnicity,religion,disability,lgbt,gender,age,domisili,pendidikan_t
 24,Bugis,Islam,no,no,F,32,Padang,Magister (S2),Bekerja,1
 25,Aceh,Islam,no,no,F,39,Banda Aceh,Doktor (S3),Bekerja,3
 26,Sunda,Islam,no,no,M,27,Bandung,Magister (S2),Bekerja,2
-27,Aceh,Islam,no,no,M,59,Banda Aceh ,Sarjana (S1),Bekerja,1
-28,Balinese,Hindu,no,no,M,40,Mataram,Sekolah Menengah Atas (SMA),Bekerja,2
-29,Sasak,Islam,no,no,M,36,Mataram ,Sarjana (S1),Bekerja,3
+27,Aceh,Islam,no,no,M,59,Banda Aceh,Sarjana (S1),Bekerja,1
+28,Bali,Hindu,no,no,M,40,Mataram,Sekolah Menengah Atas (SMA),Bekerja,2
+29,Sasak,Islam,no,no,M,36,Mataram,Sarjana (S1),Bekerja,3
 30,Minang,Islam,no,no,F,31,Padang,Magister (S2),Bekerja,1
 31,Tobelo,Islam,no,no,M,36,Ternate,Sarjana (S1),Bekerja,1
