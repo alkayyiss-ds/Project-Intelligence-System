@@ -1,4 +1,4 @@
-annotator_id,ethnicity,religion,disability,lgbt,gender,age,domisili,pendidikan terakhir,status pekerjaan,president vote leaning
+annotator_id,ethnicity,religion,disability,lgbt,gender,age,domisili,pendidikan_terakhir,status_pekerjaan,president_vote_leaning
 1,Tionghoa,Kristen,no,no,F,50,Jakarta,Diploma,Bekerja,2
 2,Madura,Islam,no,no,F,22,Madura,Sekolah Menengah Atas (SMA),Pelajar/Mahasiswa,3
 3,Batak,Kepercayaan Lokal,no,no,F,29,Medan,Sarjana (S1),Bekerja,3
